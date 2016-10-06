@@ -11,6 +11,6 @@ runningTotal = 0
 tags = soup('span')
 for tag in tags:
     # Look at the parts of a tag
-	runningTotal += int(tag.contents[0]) 
+    runningTotal += int(tag.contents[0]) 
     
 print runningTotal
